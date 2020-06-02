@@ -1,0 +1,10 @@
+C:\Users\jayakrishna.majji\source\repos\PriceCard\PriceCard\bin\Debug\PriceCard.dacpac
+C:\Users\jayakrishna.majji\source\repos\PriceCard\PriceCard\bin\Debug\PriceCard.dll
+C:\Users\jayakrishna.majji\source\repos\PriceCard\PriceCard\bin\Debug\PriceCard.pdb
+C:\Users\jayakrishna.majji\source\repos\PriceCard\PriceCard\obj\Debug\PriceCard.sqlprojAssemblyReference.cache
+C:\Users\jayakrishna.majji\source\repos\PriceCard\PriceCard\obj\Debug\Model.xml
+C:\Users\jayakrishna.majji\source\repos\PriceCard\PriceCard\obj\Debug\refactor.xml
+C:\Users\jayakrishna.majji\source\repos\PriceCard\PriceCard\obj\Debug\postdeploy.sql
+C:\Users\jayakrishna.majji\source\repos\PriceCard\PriceCard\obj\Debug\predeploy.sql
+C:\Users\jayakrishna.majji\source\repos\PriceCard\PriceCard\obj\Debug\PriceCard.dll
+C:\Users\jayakrishna.majji\source\repos\PriceCard\PriceCard\obj\Debug\PriceCard.pdb

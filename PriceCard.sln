@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "PriceCard", "PriceCard\PriceCard.sqlproj", "{AB707450-1535-4339-98E0-802A7F83E43A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB707450-1535-4339-98E0-802A7F83E43A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB707450-1535-4339-98E0-802A7F83E43A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB707450-1535-4339-98E0-802A7F83E43A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{AB707450-1535-4339-98E0-802A7F83E43A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB707450-1535-4339-98E0-802A7F83E43A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB707450-1535-4339-98E0-802A7F83E43A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {95A42B73-D2F2-4236-8A87-F5C6414CEA48}
+	EndGlobalSection
+EndGlobal

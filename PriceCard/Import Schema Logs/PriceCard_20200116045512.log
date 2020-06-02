@@ -1,0 +1,76 @@
+1/16/2020 10:25:12 AM	This log contains information about the import schema operation into project 'PriceCard' on computer 'HYLT260-3HX81Z2' by user 'jayakrishna.majji'.
+1/16/2020 10:25:12 AM	Import of database schema has started.
+1/16/2020 10:25:32 AM	Gathering database options
+1/16/2020 10:25:32 AM	Gathering users
+1/16/2020 10:25:32 AM	Gathering roles
+1/16/2020 10:25:32 AM	Gathering application roles
+1/16/2020 10:25:32 AM	Gathering role memberships
+1/16/2020 10:25:32 AM	Gathering filegroups
+1/16/2020 10:25:32 AM	Gathering full-text catalogs
+1/16/2020 10:25:32 AM	Gathering assemblies
+1/16/2020 10:25:32 AM	Gathering certificates
+1/16/2020 10:25:32 AM	Gathering asymmetric keys
+1/16/2020 10:25:32 AM	Gathering symmetric keys
+1/16/2020 10:25:32 AM	Gathering encrypted symmetric keys
+1/16/2020 10:25:32 AM	Gathering schemas
+1/16/2020 10:25:32 AM	Gathering XML schema collections
+1/16/2020 10:25:32 AM	Gathering user-defined data types
+1/16/2020 10:25:32 AM	Gathering user-defined types
+1/16/2020 10:25:32 AM	Gathering table types
+1/16/2020 10:25:32 AM	Gathering unique keys for table types
+1/16/2020 10:25:32 AM	Gathering primary keys for table types
+1/16/2020 10:25:32 AM	Gathering check constraints for table types
+1/16/2020 10:25:32 AM	Gathering default constraints for table types
+1/16/2020 10:25:32 AM	Gathering partition functions
+1/16/2020 10:25:32 AM	Gathering partition schemes
+1/16/2020 10:25:32 AM	Gathering functions
+1/16/2020 10:25:32 AM	Gathering encrypted functions
+1/16/2020 10:25:32 AM	Gathering aggregates
+1/16/2020 10:25:32 AM	Gathering procedures
+1/16/2020 10:25:32 AM	Gathering encrypted procedures
+1/16/2020 10:25:32 AM	Gathering tables
+1/16/2020 10:25:33 AM	Gathering primary keys
+1/16/2020 10:25:33 AM	Gathering unique constraints
+1/16/2020 10:25:33 AM	Gathering foreign keys
+1/16/2020 10:25:33 AM	Gathering default constraints
+1/16/2020 10:25:33 AM	Gathering check constraints
+1/16/2020 10:25:33 AM	Gathering views
+1/16/2020 10:25:33 AM	Gathering encrypted views
+1/16/2020 10:25:33 AM	Gathering indexes
+1/16/2020 10:25:33 AM	Gathering statistics
+1/16/2020 10:25:33 AM	Gathering full-text index stoplists
+1/16/2020 10:25:33 AM	Gathering search property lists
+1/16/2020 10:25:33 AM	Gathering search properties
+1/16/2020 10:25:33 AM	Gathering full-text indexes
+1/16/2020 10:25:33 AM	Gathering column store indexes
+1/16/2020 10:25:33 AM	Gathering spatial indexes
+1/16/2020 10:25:33 AM	Gathering XML indexes
+1/16/2020 10:25:33 AM	Gathering Selective XML indexes
+1/16/2020 10:25:33 AM	Gathering encrypted triggers
+1/16/2020 10:25:33 AM	Gathering triggers
+1/16/2020 10:25:33 AM	Gathering encrypted and clr ddl triggers
+1/16/2020 10:25:33 AM	Gathering ddl triggers
+1/16/2020 10:25:33 AM	Gathering synonyms
+1/16/2020 10:25:33 AM	Gathering defaults
+1/16/2020 10:25:33 AM	Gathering data constraint uddt bindings
+1/16/2020 10:25:33 AM	Gathering rules
+1/16/2020 10:25:33 AM	Gathering data constraint uddt bindings
+1/16/2020 10:25:33 AM	Gathering message types
+1/16/2020 10:25:33 AM	Gathering queues
+1/16/2020 10:25:33 AM	Gathering contracts
+1/16/2020 10:25:33 AM	Gathering services
+1/16/2020 10:25:33 AM	Gathering event notifications
+1/16/2020 10:25:33 AM	Gathering remote service bindings
+1/16/2020 10:25:33 AM	Gathering broker priorities
+1/16/2020 10:25:33 AM	Gathering signatures
+1/16/2020 10:25:33 AM	Gathering data compression options
+1/16/2020 10:25:33 AM	Gathering sequence types
+1/16/2020 10:25:33 AM	Gathering extended properties
+1/16/2020 10:25:39 AM	Gathering credentials
+1/16/2020 10:25:39 AM	Gathering logins
+1/16/2020 10:25:39 AM	Gathering server audits
+1/16/2020 10:25:41 AM	Scanning project for duplicate elements
+1/16/2020 10:25:41 AM	Finished duplicate element processing
+1/16/2020 10:25:42 AM	Finished importing database.
+1/16/2020 10:25:42 AM	A summary of the import was saved to the following location: C:\Users\jayakrishna.majji\source\repos\PriceCard\PriceCard\Import Schema Logs\PriceCard_20200116045512.log
+1/16/2020 10:25:42 AM	Click Finish to continue...

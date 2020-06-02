@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <Name>PriceCard</Name>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectVersion>4.1</ProjectVersion>
+    <ProjectGuid>{ab707450-1535-4339-98e0-802a7f83e43a}</ProjectGuid>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql130DatabaseSchemaProvider</DSP>
+    <OutputType>Database</OutputType>
+    <RootPath>
+    </RootPath>
+    <RootNamespace>PriceCard</RootNamespace>
+    <AssemblyName>PriceCard</AssemblyName>
+    <ModelCollation>1033,CI</ModelCollation>
+    <DefaultFileStructure>BySchemaAndSchemaType</DefaultFileStructure>
+    <DeployToDatabase>True</DeployToDatabase>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetLanguage>CS</TargetLanguage>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <SqlServerVerification>False</SqlServerVerification>
+    <IncludeCompositeObjects>True</IncludeCompositeObjects>
+    <TargetDatabaseSet>True</TargetDatabaseSet>
+    <DefaultCollation>SQL_Latin1_General_CP1_CI_AS</DefaultCollation>
+    <DefaultFilegroup>PRIMARY</DefaultFilegroup>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
+    <!-- Default to the v11.0 targets path if the targets file for the current VS version is not found -->
+    <SSDTExists Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets')">True</SSDTExists>
+    <VisualStudioVersion Condition="'$(SSDTExists)' == ''">11.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Condition="'$(SQLDBExtensionsRefPath)' != ''" Project="$(SQLDBExtensionsRefPath)\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <ItemGroup>
+    <Folder Include="Properties" />
+    <Folder Include="dbo\" />
+    <Folder Include="dbo\Tables\" />
+    <Folder Include="dbo\Stored Procedures\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="dbo\Tables\__EFMigrationsHistory.sql" />
+    <Build Include="dbo\Tables\AnnualWorkshops.sql" />
+    <Build Include="dbo\Tables\ARP_Transaction.sql" />
+    <Build Include="dbo\Tables\ClaimsforTypetwo.sql" />
+    <Build Include="dbo\Tables\Countries.sql" />
+    <Build Include="dbo\Tables\Currencies.sql" />
+    <Build Include="dbo\Tables\Incidencerates.sql" />
+    <Build Include="dbo\Tables\isEmailSuccess.sql" />
+    <Build Include="dbo\Tables\loginUsers.sql" />
+    <Build Include="dbo\Tables\mst_CountryTag.sql" />
+    <Build Include="dbo\Tables\mst_innerCountries.sql" />
+    <Build Include="dbo\Tables\mst_Q_A.sql" />
+    <Build Include="dbo\Tables\Mst_Types.sql" />
+    <Build Include="dbo\Tables\mst_UnileverCountries.sql" />
+    <Build Include="dbo\Tables\mst_UnileverRoletypes.sql" />
+    <Build Include="dbo\Tables\NoofClaims.sql" />
+    <Build Include="dbo\Tables\PriceCalculators.sql" />
+    <Build Include="dbo\Tables\QreUpdates.sql" />
+    <Build Include="dbo\Tables\Registers.sql" />
+    <Build Include="dbo\Tables\Roles.sql" />
+    <Build Include="dbo\Tables\SampleSize.sql" />
+    <Build Include="dbo\Tables\Unilever_Transaction2.sql" />
+    <Build Include="dbo\Tables\unileverTransactions.sql" />
+    <Build Include="dbo\Tables\mst_InnerCountry_Tag.sql" />
+    <Build Include="dbo\Tables\reportingOptions.sql" />
+    <Build Include="dbo\Tables\UsersInRoles.sql" />
+    <Build Include="dbo\Stored Procedures\GetInnerCountrieswithTags.sql" />
+    <Build Include="dbo\Stored Procedures\GetReportingTypes.sql" />
+    <Build Include="dbo\Stored Procedures\GetSampleSize.sql" />
+    <Build Include="dbo\Stored Procedures\Userassignrole.sql" />
+  </ItemGroup>
+</Project>
