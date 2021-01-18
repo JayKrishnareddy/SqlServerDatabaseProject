@@ -1,0 +1,2 @@
+## SqlServerDatabaseProject
+When we work on any project, a database plays an important role and after time when the number of tables, views and procedures increases - it becomes too difficult to manage the scripts.  And even after that when we manage the scripts, then we still need to compare which script we had worked on and which are remaining on any particular database. There are many good tools available in the market for comparing databases but most of them are paid.
